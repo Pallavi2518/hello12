@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /dev-app
 
-COPY App.java .
+COPY . .
 
 RUN javac App.java
 
