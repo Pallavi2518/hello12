@@ -19,7 +19,7 @@ pipeline {
 
         stage('Run Docker Image') {
             steps {
-                sh 'docker run -d --name java-container java-hello'
+                sh 'docker run -d --name java-container java-app'
             }
         }
 
